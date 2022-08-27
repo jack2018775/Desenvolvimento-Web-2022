@@ -94,6 +94,36 @@
     <a href="contato.html">Ir para pagina de contato</a>
     <!-- podemos tambem criar um link para paginas online botando a rederencia no atributo href -->
     <a href="https://www.ibm.com/cloud/learn/what-is-artificial-intelligence">Ir para site de ia</a>
+
+    <h1>Trabalhando com tebelas</h1>
+    <table border="1" width="339"> <!-- Para criar uma tabela -->
+
+        <tr> <!-- cria a linha vem de table row -->
+            <th>Header 01 </th> <!-- cria um cabeçario vem de table header  -->
+            <th>Header 02 </th>
+            <th>Header 03 </th>
+        </tr>
+        <tr> 
+            <td>Linha 01 Coluna 01 </td> <!-- cria a coluna vem de table data -->
+            <td>Linha 01 Coluna 02 </td>
+            <td>Linha 01 Coluna 03 </td>
+        </tr>
+        <tr>
+            <td>Linha 02 Coluna 01 </td>
+            <td colspan="2">Linha 02 Coluna 03 com colspan </td> <!-- atributo para juntar columas -->
+        </tr>
+        <tr>
+            <td rowspan="2">Linha 03 Coluna 01 com rowspan </td> <!-- atributo para juntar linhas -->
+            <td>Linha 03 Coluna 02 </td>
+            <td>Linha 03 Coluna 03 </td>
+        </tr>
+        <tr>
+            <td>Linha 04 Coluna 02 </td>
+            <td>Linha 04 Coluna 03 </td>
+        </tr>
+    </table>
+
+
 </body>
 </html>
 
