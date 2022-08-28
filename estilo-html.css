@@ -1,0 +1,24 @@
+.conteudo{
+    /*
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+    /*
+    O sentido e qu nem um relogio
+
+    border: 1px solid red;
+    padding: 40px 30px 20px 10px;
+    */ 
+
+    /*
+    O sentido e cima/baixo direita/esquerda
+    padding: 40px 30px;
+    */ 
+
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+}
