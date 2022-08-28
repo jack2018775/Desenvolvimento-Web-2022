@@ -1,0 +1,75 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/**/
+/*NavBar*/
+#menu{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar{
+    background-color: rgb(247, 217, 18);
+}
+
+#navbar ul{
+    list-style: none;
+    
+    
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 20px;
+    float: left;
+}
+
+#navbar ul li:hover{
+    background-color: white;
+}
+
+#navbar ul li a{
+    color: rgb(227, 227, 227);
+
+}
+#navbar ul li a:hover{
+    color: rgb(255, 183, 0);
+    
+}
+
+.clear{
+    clear: both;
+}
+
+/*logo*/
+
+#logo a{
+
+}
+
+#logo{
+    padding: 15px 0 10px 0;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-tech, #logo-blog{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+#logo-tech{
+    color: rgb(0, 0, 0);
+
+}
+#logo-blog{
+    color: white;
+}
