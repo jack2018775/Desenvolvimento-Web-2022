@@ -1,9 +1,50 @@
-
+/*formatação padrão*/
 
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-size: 1em;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+a{
+    color: rgb(247, 217, 18);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: rgb(247, 217, 18);
+    font-size: 2em;
+}
+
+h3 {
+    background-color: rgb(226, 226, 226);
+    color: rgb(109, 108, 108);
+    padding: 5px;
+    font-size: 1.15em;
+}
+
+/*Limpando os floats*/
+.clear{
+    clear: both;
+}
+
+/*Alinhamentos de textos*/
+.center{
+    text-align: center;
+}
+
+.direita{
+    text-align: right;
+}
+
+.esquerda{
+    text-align: left;
 }
 
 /**/
@@ -39,15 +80,14 @@
 #navbar ul li a:hover{
     color: rgb(247, 217, 18);
     background-color: white;
+    text-decoration: none;
+    
 }
 
 #menu{
  
 }
 
-.clear{
-    clear: both;
-}
 
 /*logo*/
 
@@ -70,4 +110,62 @@
 }
 .branco{
     color: white;
+}
+
+/*Conteudo*/
+#conteudo{
+    
+    width: 920px;
+    padding: 15px;
+    margin: auto;
+}
+
+#postagens{
+    width: 660px;
+    float: left;
+}
+#menu-lateral{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 215px;
+    float: right;
+}
+
+.postagens-lateral{
+    padding-bottom:10px ;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+/*postagens*/
+
+
+
+
+#postagens p{
+    margin-bottom: 20px;
+}
+
+
+#postagens div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#postagens div img{
+    width: 610px;
+}
+
+#postagens span{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+
+/*rodape*/
+
+#rodape{
+    padding: 15px;
+    background-color: yellowgreen;
 }
