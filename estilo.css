@@ -1,0 +1,218 @@
+/***************** DA BRANCJ DE CSS ********************/
+
+
+#body{
+    background-image: url('Imagens/Ativo\ 2.png');
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-position: center center  ;
+}
+
+#assinatura{
+    background-color: rgb(47, 110, 53);
+}
+#topo{
+    background: aqua;
+}
+#conteudo{
+    background: brown;
+}
+#rodape{
+    background-color: blueviolet;
+}
+.produto{
+    background: green;
+    margin: 10px;
+}
+
+
+
+
+/*Bordas*/
+
+#bordas div{
+    width: 90px;
+    height: 60px;
+    margin: 4px;
+    padding: 10px;
+    
+    
+}
+
+#bordas{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.dotted {border: 5px dotted red; border-radius: 5%;}
+div.dashed {border: 5px dashed red; border-radius: 10%;}
+div.solid {border: 5px solid red; border-radius: 15%;}
+div.double {border: 5px double red; border-radius: 20%;}
+div.groove {border: 5px groove red; border-radius: 25%;}
+div.ridge {border: 5px ridge red; border-radius: 30%;}
+div.inset {border: 5px inset red; border-radius: 35%;}
+div.outset {border: 5px outset red; border-radius:40%;}
+div.none {border: 5px none red; border-radius: 4%;}
+div.hidden {border: 5px hidden red; border-radius: 100%;}
+div.mix {border: 5px dotted dashed solid double red;} 
+
+/**/
+/*FONTES*/
+#f1{
+    font-size: 30px;
+}
+#f2{
+   font-family: 'Times New Roman', Times, serif; 
+}
+#f3{
+    color: rgb(78, 36, 147);
+}
+#f4{
+    font-weight: lighter;
+    
+}
+#f5{
+    font-style: italic;
+}
+#f6{
+    text-decoration: underline;
+}
+#f7{
+    text-decoration: overline;
+}
+#f8{
+    text-decoration: line-through; 
+}
+#f9{
+   font: line-through lighter red;  
+}
+#f10{
+    background: orange;
+    color: aliceblue;
+}
+
+
+/*ELEMENTOS FLUTUANTES*/
+
+.box {
+    margin: 10px auto;
+    width: 50%;
+}
+
+.box div{
+    margin: 10px;
+}
+
+.conteudo{
+    background-color: aqua;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left ;
+}
+
+.conteudo1{
+    background-color: red;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left ;
+}
+
+.conteudo2{
+    background-color: rgb(37, 233, 23);
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left ;
+}
+
+.clear{
+    clear: both;
+}
+p.clear {
+    display: block;
+    width: 527px;
+}
+
+/*ESTRUTURAS DE UM SITE*/
+
+#principal{
+    width: 920px;
+}
+
+.noticia{
+    background: rgb(213, 143, 12);
+    float: left;
+    margin: 5px;
+    width: 280px;
+    padding: 5;
+}
+.noticia h2{
+    color: rgb(255, 255, 255);
+}
+
+.img-galeria{
+    width: 290px;
+    float: left;
+    margin: 2px;
+    padding: 5px;
+}
+
+.center{
+   text-justify:center;
+}
+
+.borda{
+    border: 1px solid red;
+}
+
+/*FORMATAÇÃO DE LINKS*/
+
+a{
+    padding: 5px 10px;
+}
+
+a:visited{
+    color: rgb(119, 255, 0);
+}
+a:link{
+    color: rgb(255, 183, 0);
+}
+
+a:hover{
+    color:rgb(255, 0, 0);
+    background-color: rgb(0, 25, 251);
+}
+
+a:active{
+    color: rgb(6, 255, 255);
+}
+
+
+/***************** DA BRANCJ DE HTML ********************/
+
+.conteudo{
+    /*
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+    /*
+    O sentido e qu nem um relogio
+
+    border: 1px solid red;
+    padding: 40px 30px 20px 10px;
+    */ 
+
+    /*
+    O sentido e cima/baixo direita/esquerda
+    padding: 40px 30px;
+    */ 
+
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+}
