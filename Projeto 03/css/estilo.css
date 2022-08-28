@@ -8,14 +8,11 @@
 
 /**/
 /*NavBar*/
-#menu{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 #navbar{
     background-color: rgb(247, 217, 18);
+    text-align: center;
 }
 
 #navbar ul{
@@ -27,20 +24,25 @@
 #navbar ul li{
     display: inline-block;
     padding: 20px;
-    float: left;
+
 }
 
 #navbar ul li:hover{
-    background-color: white;
+
 }
 
 #navbar ul li a{
-    color: rgb(227, 227, 227);
+    color: rgb(255, 255, 255);
+    padding: 20px;
 
 }
 #navbar ul li a:hover{
-    color: rgb(255, 183, 0);
-    
+    color: rgb(247, 217, 18);
+    background-color: white;
+}
+
+#menu{
+ 
 }
 
 .clear{
@@ -49,27 +51,23 @@
 
 /*logo*/
 
-#logo a{
+
+
+#logo{
+    padding: 15px 0 10px 0;
 
 }
 
 #logo{
-    padding: 15px 0 10px 0;
-    width: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#logo-tech, #logo-blog{
     font-weight: bold;
     font-size: 40px;
     
 }
 
-#logo-tech{
+.preto{
     color: rgb(0, 0, 0);
 
 }
-#logo-blog{
+.branco{
     color: white;
 }
