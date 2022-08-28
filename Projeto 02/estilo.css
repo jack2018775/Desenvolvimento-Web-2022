@@ -1,0 +1,71 @@
+body{
+    background-image: url(img/fundo.png);
+}
+
+/**/
+/*Container*/
+div{
+    display: inline-block;
+    width: 871px
+}
+.container{
+    display:flexbox;
+   
+}
+.centralizar{
+    text-align: center;
+}
+
+h1{
+    margin: 10px 8px;
+    font-size: 28px;
+    color: rgb(177, 149, 73);
+}
+
+/*menu*/
+#menu{
+    display: flex;
+    flex-direction: row;
+    background: rgb(177, 149, 73);
+    width: 900px;
+    margin: 0px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 10px 6px;
+    
+}
+
+#menu ul li{
+    display: inline-flex;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(115, 98, 51);
+}
+#menu ul li a:hover{
+    color: rgb(85, 73, 39);
+}
+
+/*Conteudo*/
+#conteudo{
+    width: 871px;
+    background: rgba(177, 149, 73, 0.152);;
+    padding: 15px;
+    margin: 0px;
+}
+
+/*Fotos*/
+
+
+.img img{
+    width:640px ; 
+    height: 425; 
+    margin: 0px;
+    border: 10px solid rgb(177, 149, 73);
+ 
+}
