@@ -4,8 +4,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style type="text/css">
+
+        #assinatura{
+            background-color: rgb(47, 110, 53);
+        }
+        #topo{
+            background: aqua;
+        }
+        #conteudo{
+            background: brown;
+        }
+        #rodape{
+            background-color: blueviolet;
+        }
+        .produto{
+            background: green;
+            margin: 10px;
+        }
+
+        #bordas div{
+            width: 90px;
+            height: 60px;
+            margin: 4px;
+            padding: 10px;
+            
+            
+        }
+        #bordas{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        div.dotted {border: 5px dotted red; border-radius: 5%;}
+        div.dashed {border: 5px dashed red; border-radius: 10%;}
+        div.solid {border: 5px solid red; border-radius: 15%;}
+        div.double {border: 5px double red; border-radius: 20%;}
+        div.groove {border: 5px groove red; border-radius: 25%;}
+        div.ridge {border: 5px ridge red; border-radius: 30%;}
+        div.inset {border: 5px inset red; border-radius: 35%;}
+        div.outset {border: 5px outset red; border-radius:40%;}
+        div.none {border: 5px none red; border-radius: 4%;}
+        div.hidden {border: 5px hidden red; border-radius: 100%;}
+        div.mix {border: 5px dotted dashed solid double red;} 
+
+    </style>
 </head>
 <body>
+    <div id="topo">
+        <img height="70" src="Imagens/Ativo 1.png" alt="">
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">Produtos</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">Contatos</a>
+            </li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Rodos os Direitos Reservados
+    </div>
+    <div >
+        <span id="assinatura">Jackson</span> 
+        <span>Cavalcante</span>
+    </div>
+
+    <h1>Estilos de bordas</h1>
+    <div id="bordas">
+
+        <div class="dotted">dotted</div>
+        <div class="dashed">dashed</div>
+        <div class="solid">solid</div>
+        <div class="double">double</div>
+        <div class="groove">groove</div>
+        <div class="ridge">ridge</div>
+        <div class="inset">inset</div>
+        <div class="outset">outset</div>
+        <div class="none">none</div>
+        <div class="hidden">hidden</div>
+        <div class="mix">mix</div>
+
+    </div>
+    
     
 </body>
 </html>
