@@ -90,3 +90,72 @@ div.mix {border: 5px dotted dashed solid double red;}
 }
 
 
+/*ELEMENTOS FLUTUANTES*/
+
+.box div{
+    margin: 10px;
+}
+
+.conteudo{
+    background-color: aqua;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left ;
+}
+
+.conteudo1{
+    background-color: red;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left ;
+}
+
+.conteudo2{
+    background-color: rgb(37, 233, 23);
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left ;
+}
+
+.clear{
+    clear: both;
+}
+p.clear {
+    display: block;
+    width: 527px;
+}
+
+/*ESTRUTURAS DE UM SITE*/
+
+#principal{
+    width: 920px;
+}
+
+.noticia{
+    background: rgb(213, 143, 12);
+    float: left;
+    margin: 5px;
+    width: 280px;
+    padding: 5;
+}
+.noticia h2{
+    color: rgb(255, 255, 255);
+}
+
+.img-galeria{
+    width: 290px;
+    float: left;
+    margin: 2px;
+    padding: 5;
+}
+
+.center{
+   
+}
+
+.borda{
+    border: 1px solid red;
+}
