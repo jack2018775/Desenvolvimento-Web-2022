@@ -15,22 +15,67 @@
         body{
             background: url("img/fundo.png") repeat-x;
         }
+        h2{
+            font-size: 1em;
+            background-color: #294c71;
+            color: #fff;
+            padding: 5px;
+        }
+        h3{
+            padding: 3px;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            display: inline;
+        }
+        img{
+            border: 2px solid #dfdfdf;
+        }
         ul{
             margin: 0;
             padding: 0%;
             list-style: none;
             
         }
+
+        /******LAYOUT PADRÃO FORMULARIO***********/
+
+        label{
+            display: block;
+            cursor: pointer;
+        }
+        input{
+            width: 155px;
+            padding: 5px;
+            font-size: 0.9em;
+            background-color: #fff;
+        }
+        input[type="submit"]{
+            margin: 5px;
+            width: 110px;
+            background-color: #b10333;
+            border: 2px solid #870529;
+           
+        }
+
+        /******LAYOUT PADRÃO CLASSES***********/
+
         .borda{
             border: 1px solid red;
         }
+        .clear{
+            clear: both;
+        }
+        .center{
+            text-align: center;
+        }
+        
+
+        /******LAYOUT DO TOPO DO SITE***********/
+
         #container{
             width: 750px;
             margin: 0 auto;
         }
-
-        /******LAYOUT DO TOPO DO SITE***********/
-
         #topo{
             height: 160px;
             padding-top: 25px;
@@ -81,11 +126,134 @@
         {
             background-color: rgb(199, 0, 0);
         }
-      </style>
-</head>
-<body class="brasil">
 
+        /******LAYOUT DE COMTEUDO***********/
+
+        #conteudo{
+            width: 750px;
+            margin-top: 60px;
+            background-color: rgba(236, 236, 236, 0.519);
+        }
+
+        /******LAYOUT DE COMTEUO PRIMARIO***********/
+
+        #tres-colunas #primario{
+            width: 270px;
+            float: left;
+            margin: 0 15px 20px 195px;
+           
+        }
+        #duas-colunas #primario{
+            margin-left: 195px;
+          
+        }
+        #uma-coluna #primario{
+            width: 750px;
+            margin: 0 15px 20px 0px;
+         
+        }
+        .destaque h3{
+            background-color: #b10333;
+            color: white;   
+        }
+
+        /******LAYOUT DE COMTEUO SECUNDARIO***********/
+
+        #secundario{
+            width: 270px;
+            float: left;
+           
+        }
+
+        .img-principal{
+            width: 96%;
+            border: 3px solid #dfdfdf;
+        }
+        .entrevista h3{
+            background-color: #DE003E; 
+        }
+
+        /******LAYOUT DE COMTEUDO LATERAL***********/
+
+        #lateral{
+            width: 180px;
+            float: left;
+            margin: -745px 0 20px 6px;
+           
+        }
+
+        /******LAYOUT DA MENU  LATERAL***********/
+
+        #lateral ul a{
+            font-size: 0.9em;
+            text-decoration: none;
+            padding: 3px;
+            display: block;
+            line-height: 30px;
+            color: #000;
+        }
+
+        #lateral ul a:hover{
+            background: #f9f9f9 url("img/marcador.png") no-repeat left center;
+            padding-left: 20px;
+            color: #a1a1a1;
+        }
+
+        /******LAYOUT DE COMTEUDO DE CAIXAS***********/
+
+        .caixa{
+            padding: 5px;
+            background: #F3F3F3 url("img/fundo-caixa.png");
+            margin: 10px 0;
+        }
+        .caixa-conteudo{
+            background-color: #fff;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        /******LAYOUT DA LISTA DE NOTICIA***********/
+
+        #lista-noticias li{
+            padding: 2px;
+            border-bottom: 1px solid #ccc;
+            height: 65px;
+        }
+        #lista-noticias li:hover{
+            background-color: rgb(233, 231, 231);
+            cursor: pointer;
+        }
+        #lista-noticias li a img{
+            float: left;
+            margin: 5px;
+        }
+        #lista-noticias li a{
+            text-decoration: none;
+        }
+        #lista-noticias li h3{
+            padding: 0;
+            font-size: 0.8em;
+            color: #5494d8;
+        }
+        #lista-noticias li p{
+            font-size: 0.7em;
+        }
+
+        /******LAYOUT DO RODAPE***********/
+
+        #rodape{
+            background-color: #294c71;
+            padding: 20px;
+            margin: 0;
+            color: white;
+        }
+    </style>
+</head>
+<body class="brasil" id="duas-colunas">
+    <!-- Inicio do container -->
     <div class="" id="container">
+        <!--  -->
+        <!-- Inicio do topo -->
         <div class="" id="topo">
             <div class="logo"></div>
             <ul id="navegação">
@@ -97,8 +265,87 @@
                 <li id="ciencias"><a  href="ciencias.html">CIÊNCIAS</a></li>
                 <li id="fotos"><a  href="fotos.html">FOTOS</a></li>
             </ul>
-        </div>
-    </div>
-    
+        </div><!-- Fim do topo -->
+        <!-- Inicio do conteudo -->
+        <div id="conteudo">
+            <!-- Inicio do primario -->
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo destaque">
+                        <h3>Nova Legislação</h3>
+                        <img class="img-principal" src="img/taxi.jpg" width="100%" srcset="">
+                        <p>
+                            Deserunt, quod illum blanditiis ex perferendis ipsa. ex perferendis ipsa
+                        </p>
+                        <a href="http://">Leia Mais</a>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="img/tecnologia.jpg" width="80px" >
+                                    <h3>Novas tecnologias</h3>
+                                    <p> Labore nemo, ut quaerat a molestias eos harum vel similique magnam praesentium nam!</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/tecnologia.jpg" width="80px" >
+                                    <h3>Novas tecnologias</h3>
+                                    <p> Labore nemo, ut quaerat a molestias eos harum vel similique magnam praesentium nam!</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/tecnologia.jpg" width="80px" >
+                                    <h3>Novas tecnologias</h3>
+                                    <p> Labore nemo, ut quaerat a molestias eos harum vel similique magnam praesentium nam!</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- Fim primario --> 
+            <!-- Inicio lateral -->
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Lateral</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">Jackson</a></li>
+                            <li><a href="">Leandro</a></li>
+                            <li><a href="">Elias</a></li>
+                            <li><a href="">Guilherme</a></li>
+                            <li><a href="">Alex</a></li>
+                            <li><a href="">Rubens</a></li>
+                            <li><a href="">Miguel</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <div class="">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" placeholder="email">
+                                <input class="" type="submit" value="CADASTRAR">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div><!-- Fim lateral -->
+            <div class="clear"></div>
+        </div><!-- Fim do topo -->
+    </div><!-- Fim do Comtainer -->
+    <!-- Inicio do rodape -->
+    <div class="clear center" id="rodape">
+        &copy; Copyright 2001-2022 Noticias Cidade
+    </div><!-- Fin do rodape -->
 </body>
 </html>
