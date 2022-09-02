@@ -1,0 +1,8 @@
+/*formatação padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
