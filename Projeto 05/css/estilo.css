@@ -10,9 +10,32 @@ body{
     background: white url('../Imagens/bg.png');
     margin: 15px;
 }
+ul{
+    list-style: none; 
+}
+a{
+    color: black;
+    text-decoration: none;
+}
 
 .clear{
     clear: both;
+}
+
+/************** FORMATAÇÃO DE TEXTO **************/ 
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+h3{
+    color: #7d7640;
+    font-size: 1.0em;
+    padding: 5px;
+    background: url('../Imagens/ornamento.png') no-repeat center right;
+}
+p{
+    margin-bottom: 7px;
 }
 
 /************** LAYOUT PADRÃO BORDAS **************/ 
@@ -26,11 +49,12 @@ body{
 .fundo-vermelho{background-color: red;}
 .fundo-verde{background-color: green;}
 .fundo-azul{background-color: blue;}
+.fundo-amarelo{background-color: yellow;}
 
 /************** LAYOUT CONTAINER **************/
 
 #container{
-    background: #ede9cc;
+    background: url('../Imagens/bg-container.png') repeat-y top center;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -134,4 +158,79 @@ ul#navegação a:hover{
 #menu .depoimento{
     width: 226px;
     float: right;
+}
+
+/************** LAYOUT CONTEUDO **************/
+#area-principal{
+    background: url('../Imagens/bg-area-principal.png') repeat-x top left;
+    float: left;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/************** LAYOUT LATERAL **************/
+
+#area-lateral{
+    background: url('../Imagens/bg-area-lateral.png') repeat-x top left;
+    float: right;
+    width: 50%;
+    padding: 20px 0;
+}
+
+/************** LAYOUT LISTA **************/
+
+#area-lateral ul{
+
+
+
+}
+#area-lateral ul li{
+    padding: 8px;
+    height: 6em;
+}
+#area-lateral ul li:hover{
+
+    background-color: #fdf6be;
+    cursor: pointer;
+
+}
+#area-lateral ul a{
+
+    
+
+}
+#area-lateral ul img{
+    float: left;
+    margin-right: 9px;
+}
+
+
+#area-lateral p{
+   
+    font-size: 0.8em;
+
+}
+
+
+.conteudo-lateral{
+    position: relative;
+}
+
+
+
+/************** LAYOUT LATERAL TEXTO **************/
+
+
+/************** LAYOUT RODAPE **************/
+
+#rodape{
+    color: #7d7640;
+    clear: both;
+    padding: 16px;
+    background: #fff url(../Imagens/bg-rodape.png) repeat-x top;
 }
