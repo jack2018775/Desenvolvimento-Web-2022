@@ -15,6 +15,12 @@
         body{
             background: url("img/fundo.png") repeat-x;
         }
+        h2{
+            font-size: 1em;
+            background-color: #294c71;
+            color: #fff;
+            padding: 5px;
+        }
         ul{
             margin: 0;
             padding: 0%;
@@ -23,6 +29,12 @@
         }
         .borda{
             border: 1px solid red;
+        }
+        .clear{
+            clear: both;
+        }
+        .center{
+            text-align: center;
         }
         #container{
             width: 750px;
@@ -81,11 +93,70 @@
         {
             background-color: rgb(199, 0, 0);
         }
+
+        /******LAYOUT DE COMTEUDO***********/
+
+        #conteudo{
+            width: 750px;
+            margin-top: 60px;
+            background-color: rgba(236, 236, 236, 0.519);
+        }
+        #lateral{
+            width: 180px;
+            float: left;
+            margin: 0 0 20px -750px;
+           
+        }
+
+        #tres-colunas #primario{
+            width: 270px;
+            float: left;
+            margin: 0 15px 20px 195px;
+           
+        }
+        #duas-colunas #primario{
+            width: 555px;
+          
+        }
+        #uma-coluna #primario{
+            width: 750px;
+            margin: 0 15px 20px 0px;
+         
+        }
+        #secundario{
+            width: 270px;
+            float: left;
+           
+        }
+
+        /******LAYOUT DE COMTEUDO DE CAIXAS***********/
+
+        .caixa{
+            padding: 5px;
+            background: #F3F3F3 url("img/fundo-caixa.png");
+            margin: 10px 0;
+        }
+        .caixa-conteudo{
+            background-color: #fff;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        
+        /******LAYOUT DO RODAPE***********/
+
+        #rodape{
+            background-color: #294c71;
+            padding: 20px;
+            margin: 0;
+            color: white;
+        }
       </style>
 </head>
-<body class="home">
-
+<body class="home" id="tres-colunas">
+    <!-- Inicio do container -->
     <div class="" id="container">
+        <!--  -->
+        <!-- Inicio do topo -->
         <div class="" id="topo">
             <div class="logo"></div>
             <ul id="navegação">
@@ -97,8 +168,43 @@
                 <li id="ciencias"><a  href="ciencias.html">CIÊNCIAS</a></li>
                 <li id="fotos"><a  href="fotos.html">FOTOS</a></li>
             </ul>
-        </div>
-    </div>
-    
+        </div><!-- Fim do topo -->
+        <!-- Inicio do conteudo -->
+        <div id="conteudo">
+            <!-- Inicio do primario -->
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Primario</h2>
+                    <div class="caixa-conteudo">
+                        comteudo
+                    </div>
+                </div>
+            </div><!-- Fim primario -->
+            <!-- Inicio do secundario -->
+            <div id="secundario">
+                <div class="caixa">
+                    <h2>Secundario</h2>
+                    <div class="caixa-conteudo">
+                        comteudo
+                    </div>
+                </div>
+            </div><!-- Fim secundario -->
+            <!-- Inicio lateral -->
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Lateral</h2>
+                    <div class="caixa-conteudo">
+                        comteudo
+                    </div>
+                </div>
+                
+            </div><!-- Fim lateral -->
+            <div class="clear"></div>
+        </div><!-- Fim do topo -->
+    </div><!-- Fim do Comtainer -->
+    <!-- Inicio do rodape -->
+    <div class="clear center" id="rodape">
+        &copy; Copyright 2001-2022 Noticias Cidade
+    </div><!-- Fin do rodape -->
 </body>
 </html>
