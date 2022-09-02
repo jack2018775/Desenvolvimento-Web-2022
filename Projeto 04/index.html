@@ -21,6 +21,15 @@
             color: #fff;
             padding: 5px;
         }
+        h3{
+            padding: 3px;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            display: inline;
+        }
+        img{
+            border: 2px solid #dfdfdf;
+        }
         ul{
             margin: 0;
             padding: 0%;
@@ -125,12 +134,8 @@
             margin-top: 60px;
             background-color: rgba(236, 236, 236, 0.519);
         }
-        #lateral{
-            width: 180px;
-            float: left;
-            margin: 0 0 20px -750px;
-           
-        }
+
+        /******LAYOUT DE COMTEUO PRIMARIO***********/
 
         #tres-colunas #primario{
             width: 270px;
@@ -147,9 +152,33 @@
             margin: 0 15px 20px 0px;
          
         }
+        .destaque h3{
+            background-color: #b10333;
+            color: white;   
+        }
+
+        /******LAYOUT DE COMTEUO SECUNDARIO***********/
+
         #secundario{
             width: 270px;
             float: left;
+           
+        }
+
+        .img-principal{
+            width: 96%;
+            border: 3px solid #dfdfdf;
+        }
+        .entrevista h3{
+            background-color: #DE003E; 
+        }
+
+        /******LAYOUT DE COMTEUO LATERAL***********/
+
+        #lateral{
+            width: 180px;
+            float: left;
+            margin: 0 0 20px -750px;
            
         }
 
@@ -169,7 +198,6 @@
             padding-left: 20px;
             color: #a1a1a1;
         }
-
 
         /******LAYOUT DE COMTEUDO DE CAIXAS***********/
 
@@ -216,9 +244,14 @@
             <!-- Inicio do primario -->
             <div id="primario">
                 <div class="caixa">
-                    <h2>Primario</h2>
-                    <div class="caixa-conteudo">
-                        comteudo
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo destaque">
+                        <h3>Nova Legislação</h3>
+                        <img class="img-principal" src="img/taxi.jpg" width="100%" srcset="">
+                        <p>
+                            Deserunt, quod illum blanditiis ex perferendis ipsa. ex perferendis ipsa
+                        </p>
+                        <a href="http://">Leia Mais</a>
                     </div>
                 </div>
             </div><!-- Fim primario -->
@@ -226,8 +259,13 @@
             <div id="secundario">
                 <div class="caixa">
                     <h2>Secundario</h2>
-                    <div class="caixa-conteudo">
-                        comteudo
+                    <div class="caixa-conteudo entrevista">
+                        <h3>entrvista com felipe silva</h3>
+                        <img class="img-principal" src="img/doutor.jpg" width="100%" srcset="">
+                        <p>
+                            Deserunt, quod illum blanditiis ex perferendis ipsa. ex perferendis ipsa
+                        </p>
+                        <a href="http://">Leia Mais</a>
                     </div>
                 </div>
             </div><!-- Fim secundario -->
