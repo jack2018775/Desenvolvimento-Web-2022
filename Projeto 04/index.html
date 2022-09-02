@@ -27,6 +27,29 @@
             list-style: none;
             
         }
+
+        /******LAYOUT PADRÃO FORMULARIO***********/
+
+        label{
+            display: block;
+            cursor: pointer;
+        }
+        input{
+            width: 155px;
+            padding: 5px;
+            font-size: 0.9em;
+            background-color: #fff;
+        }
+        input[type="submit"]{
+            margin: 5px;
+            width: 110px;
+            background-color: #b10333;
+            border: 2px solid #870529;
+           
+        }
+
+        /******LAYOUT PADRÃO CLASSES***********/
+
         .borda{
             border: 1px solid red;
         }
@@ -36,13 +59,14 @@
         .center{
             text-align: center;
         }
+        
+
+        /******LAYOUT DO TOPO DO SITE***********/
+
         #container{
             width: 750px;
             margin: 0 auto;
         }
-
-        /******LAYOUT DO TOPO DO SITE***********/
-
         #topo{
             height: 160px;
             padding-top: 25px;
@@ -129,6 +153,24 @@
            
         }
 
+        /******LAYOUT DA MENU  LATERAL***********/
+
+        #lateral ul a{
+            font-size: 0.9em;
+            text-decoration: none;
+            padding: 3px;
+            display: block;
+            line-height: 30px;
+            color: #000;
+        }
+
+        #lateral ul a:hover{
+            background: #f9f9f9 url("img/marcador.png") no-repeat left center;
+            padding-left: 20px;
+            color: #a1a1a1;
+        }
+
+
         /******LAYOUT DE COMTEUDO DE CAIXAS***********/
 
         .caixa{
@@ -194,7 +236,27 @@
                 <div class="caixa">
                     <h2>Lateral</h2>
                     <div class="caixa-conteudo">
-                        comteudo
+                        <ul>
+                            <li><a href="">Jackson</a></li>
+                            <li><a href="">Leandro</a></li>
+                            <li><a href="">Elias</a></li>
+                            <li><a href="">Guilherme</a></li>
+                            <li><a href="">Alex</a></li>
+                            <li><a href="">Rubens</a></li>
+                            <li><a href="">Miguel</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <div class="">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" placeholder="email">
+                                <input class="" type="submit" value="CADASTRAR">
+                            </div>
+                        </form>
                     </div>
                 </div>
                 
