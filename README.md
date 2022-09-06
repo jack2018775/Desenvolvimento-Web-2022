@@ -5,6 +5,7 @@ Docks do []().
 Docks do [HTML](https://www.w3schools.com/html/default.asp).
 Docks do [CSS](https://www.w3schools.com/css/default.asp).
 Docks do [BOOTSTRAP 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/).
+Docks do [BOOTSTRAP 5 W3SCHOOL VERSSION](https://www.w3schools.com/bootstrap5/).
 Docks do [DJANGO](https://docs.djangoproject.com/en/4.1/).
 Docks do [REACT](https://pt-br.reactjs.org/docs/getting-started.html).
 ### Links dos docs nessesarios para ia
